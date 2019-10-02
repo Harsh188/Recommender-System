@@ -18,16 +18,14 @@ Step 1: Read from CSV file
 Step 2: Select your features
 
 Step 3: Combine all of your features into one column in your dataframe
- 
+
 Step 4: Create a count matrix from this new combined column
 
 Step 5: Compute the Cosine Similarity based on the count matrix
 
-Step 6: Identify the index of the object you are trying to find recommendations for
+Step 6: Get a list of similar objects in descending order of similarity score [First being most similar]
 
-Step 7: Get a list of similar objects in descending order of similarity score [First being most similar]
-
-Step 8: Print the top 5 most recommended objects
+Step 7: Print the top 5 most recommended objects
 
 ## What I have learned: ##
 
