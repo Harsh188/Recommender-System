@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # I seperate the dataset using ";"
 # I ignore faulty lines to clean the data
 # I turn the years from int to string
-df = pd.read_csv("BX-Books.csv", sep=';', error_bad_lines = False, +\
+df = pd.read_csv("BX-Books.csv", sep=';', error_bad_lines = False, \
 	dtype={'Year-Of-Publication': str},encoding="latin-1", skip_blank_lines=True)
 df.fillna('')
 
