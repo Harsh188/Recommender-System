@@ -74,10 +74,11 @@ sorted_similar_books = sorted(similar_books, key= lambda x:x[1], reverse=True)
 
 # Step 7: Print the top 3 most recommended objects
 i = 0
+print("\n\n\n")
 for element in sorted_similar_books:
 	book_title = df[df.index==element[0]].values[0]
 	print(book_title[1])
 	i+=1
 	if i==10:
 		break
-		
+print("\n\n\n")		
