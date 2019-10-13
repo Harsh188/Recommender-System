@@ -62,6 +62,7 @@ similar_books = list(enumerate(cosine_sim[index]))
 sorted_similar_books = sorted(similar_books, key= lambda x:x[1], reverse=True)
 
 # Step 7: Print the top 3 most recommended objects
+print("\n\n\n")
 i = 0
 for element in sorted_similar_books:
 	book_title = df[df.index==element[0]].values[0]
@@ -69,3 +70,4 @@ for element in sorted_similar_books:
 	i+=1
 	if i==3:
 		break
+print("\n\n\n")
